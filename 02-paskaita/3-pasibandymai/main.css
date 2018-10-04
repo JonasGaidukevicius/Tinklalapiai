@@ -1,0 +1,42 @@
+/*p::first-letter {
+    color: red;
+    font-size: 150%;
+}*/
+
+p::after {
+    color: blue;
+}
+
+p::backdrop {
+    background: rgba(255, 0, 0, 1);
+}
+
+p::first-line {
+    font-size: 2em;
+}
+
+article h3 {
+    color: red;
+}
+
+article + p {
+    color: red;
+}
+
+a:link{
+    color: aqua;    
+}
+/*
+a:visited{
+    color: white;
+}    
+*/
+a:hoover{
+    color: coral;
+    cursor: progress;
+}
+
+a{
+    color:bisque;
+    cursor: progress;
+}

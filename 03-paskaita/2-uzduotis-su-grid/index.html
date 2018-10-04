@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Praktinė užduotis nr. 2 su grid</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+
+        .navigation {
+            grid-area: navigation;
+        }
+
+        /* Style the header */
+        .header {
+            grid-area: header;
+            background-color: skyblue;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            /*font-size: 35px;*/
+        }
+
+        /* The grid container */
+        .grid-container {
+            display: grid;
+            grid-template-areas:
+                'navigation navigation navigation navigation navigation navigation'
+                'header header header header header header'
+                'left left middle middle right right'
+                'footer footer footer footer footer footer';
+            /* grid-column-gap: 10px; - if you want gap between the columns */
+        }
+
+        .left,
+        .middle,
+        .right {
+            padding: 10px;
+            /*            height: 300px;*/
+            /* Should be removed. Only for demonstration */
+        }
+
+        /* Style the left column */
+        .left {
+            grid-area: left;
+        }
+
+        /* Style the middle column */
+        .middle {
+            grid-area: middle;
+
+        }
+
+        /* Style the right column */
+        .right {
+            grid-area: right;
+        }
+
+        /* Style the footer */
+        .footer {
+            grid-area: footer;
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-areas:
+                    'navigation navigation navigation navigation navigation navigation'
+                    'header header header header header header'
+                    'left left left left left left'
+                    'middle middle middle middle middle middle'
+                    'right right right right right right'
+                    'footer footer footer footer footer footer';
+            }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+        <nav class="navigation">
+            <h3 class="kaire">CSS layouts</h3>
+            <ul class="desine">
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">HOME</a></li>
+            </ul>
+        </nav>
+
+        <header class="header">
+            <img src="img/css3.png" alt="CSS">
+            <h3>CSS Layouts</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+        </header>
+
+        <article class="left">
+            <h3>Lorem!</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam laboriosam ipsa, provident saepe aspernatur ducimus perferendis ad unde eligendi officia amet mollitia possimus libero nihil, doloribus repellat, iusto illo quisquam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente repudiandae dignissimos aspernatur labore, quia veniam ex, dolor eum facilis quos doloribus. Dolores quasi, aspernatur placeat expedita qui amet consequatur, ad.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, sequi maiores rem. Voluptatibus reiciendis quae cumque ut asperiores dolore dolorum, ab quaerat placeat quis officia laboriosam ullam possimus deleniti nisi!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi excepturi quam obcaecati quia, doloribus ea nam, tempora, dolorem eveniet voluptas itaque sapiente in. Eum, distinctio natus sequi modi illum quisquam.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim laboriosam aspernatur accusantium repellat, porro cumque, doloremque, aut architecto corporis, natus eaque! Aliquid dolorem magnam autem animi nam, obcaecati voluptatum at.</p>
+        </article>
+
+        <article class="middle perdengia">
+            <h3>Lorem ipsum</h3>
+            <img src="img/css3_kvadratas.jpg" alt="CSS3">
+            <div class="tekstas-ant-pav">
+                <p>
+                    <solid>Lorem ipsum dolar!</solid>
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus architecto aliquam, aperiam?</p>
+            </div>
+
+
+
+
+        </article>
+
+
+        <article class="right">
+            <h3>Lorem ipsum dolor sit</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nihil officiis totam consequuntur in iusto, nesciunt deserunt delectus, quas atque similique aliquam modi asperiores ipsum, exercitationem non aliquid deleniti quasi.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex quo alias repudiandae laborum harum iure cumque animi esse, perferendis placeat illum amet odit nesciunt aut velit sit culpa voluptates doloribus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis recusandae, necessitatibus. Perferendis minima voluptatum eligendi ipsum, quia minus nostrum facilis provident. Maxime ducimus, vero nam non, modi consequatur eligendi atque?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque impedit, mollitia laudantium! Et dignissimos esse modi quis, laboriosam! Dignissimos nam expedita at optio temporibus esse quo eius eaque, ut odit!</p>
+
+        </article>
+
+        <footer class="footer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo facere dolores, nesciunt aut quibusdam veniam. Eos voluptates ex quod ut!</p>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>

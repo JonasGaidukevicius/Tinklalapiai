@@ -1,0 +1,82 @@
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+ul li {
+    display: inline;
+
+}
+
+li a:visited,
+li a:link {
+    text-decoration: none;
+    color: skyblue;
+}
+
+.fonas {
+    text-align: center;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.nuspalvink {
+    color: skyblue;
+}
+
+.balta {
+    color: white;
+}
+
+.container {
+    display: flex;
+
+}
+
+/*.plotis {
+    flex-basis: 33%;
+}*/
+
+.kvadratinis {
+    width: 600px;
+   
+}
+
+article {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: darkcyan;
+}
+
+footer p {
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+.perdengia {
+    position: relative;
+}
+
+.tekstas-ant-pav {
+    position: absolute;
+    bottom: 20px;
+    right: 120px;
+    width: 70%;
+    background-color: lightcyan;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+   /* padding-left: 20px;
+    padding-right: 20px;*/
+}

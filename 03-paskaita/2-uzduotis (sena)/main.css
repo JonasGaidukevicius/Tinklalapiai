@@ -1,0 +1,52 @@
+li {
+    display: inline;
+    color: aqua
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.right {
+    float: right;
+    
+}
+
+.left {
+    float: left;
+}
+
+.pagrindinis{
+    width: 100px;
+}
+nav {
+    grid-area: nav;
+}
+
+header {
+    background-color: aqua;
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+
+}
+
+article{
+    grid-area: article;
+}
+
+footer {
+    grid-area: footer;
+}
+
+section{
+    text-align: center;
+    align-items: center;
+}
+.container {
+    grid-template-columns: 1fl 1fl 1fl;
+    grid-template-rows: auto;
+    
+}

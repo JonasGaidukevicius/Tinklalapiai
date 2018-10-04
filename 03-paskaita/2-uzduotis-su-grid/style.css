@@ -1,0 +1,47 @@
+ ul li{
+            display: inline;
+        }
+
+.desine{
+    float: right;
+}
+
+.kaire{
+    float: left
+}
+
+.isvalyti{
+    clear: both;
+}
+
+nav{
+    border: 1px solid black;
+        
+}
+
+li a:visited, li a:link {
+    text-decoration: none;
+    color: skyblue;
+}
+
+
+article img{
+    width: 100%;
+}
+
+
+.perdengia {
+    position: relative;
+}
+
+.tekstas-ant-pav {
+    position: absolute;
+    bottom: 96px;
+    right: 40px;
+    /*width: 100%;*/
+    background-color: lightcyan;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+   /* padding-left: 20px;
+    padding-right: 20px;*/
+}
