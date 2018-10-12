@@ -1,0 +1,22 @@
+.container-fluid{
+    display: flex;
+}
+
+
+
+.pavkaireje{
+    float: left;
+}
+
+.pavdesineje{
+    float: right;
+}
+
+.paslepti{
+    display: none;
+}
+
+.namo{
+    float: none;
+   
+}
