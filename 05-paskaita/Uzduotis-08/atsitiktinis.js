@@ -1,0 +1,1 @@
+var atsitiktinisSkaicius = Math.floor(Math.random() * 10);
