@@ -1,46 +1,15 @@
-/*let forma = document.querySelector("#sampleForm");
-                                    
-forma.addEventListener("focus", function (e) {
-//    e.preventDefault();
-    document.getElementById("item1").style.backgroundColor = "yellow"; 
-    document.getElementById("item2").style.backgroundColor = "yellow"; 
-    
-   
-});
+var laukas1 = document.getElementById("item1");
+laukas1.addEventListener("focus", function (e){
+    laukas1.style.backgroundColor = "yellow";
+})
+laukas1.addEventListener("blur", function (e){
+    laukas1.style.backgroundColor = "";
+})
 
-forma.addEventListener("blur", function (e) {
-//    e.preventDefault();
-    document.getElementById("item1").style.backgroundColor = "white"; 
-    document.getElementById("item2").style.backgroundColor = "white"; 
-    
-   
-});*/
-
-//let punktas1 = document.getElementById("item1");
-//punktas1.addEventListener("focus", function(){
-//    punktas1.backgroundColor = "yellow";
-//})
-
-
-
-
-
-//p.addEventListener("click", function(){
-//p.style.color = "red";
-
-
-
-var forma = document.getElementById("sampleForm");
-forma.addEventListener("focus", myFocusFunction, true);
-forma.addEventListener("blur", myBlurFunction, true);
-
-function myFocusFunction() {
-    document.getElementById("item1").style.backgroundColor = "yellow";
-    document.getElementById("item2").style.backgroundColor = "yellow";
-}
-}
-
-function myBlurFunction() {
-    document.getElementById("item1").style.backgroundColor = "";
-    document.getElementById("item2").style.backgroundColor = "";
-}
+var laukas2 = document.getElementById("item2");
+laukas2.addEventListener("focus", function (e){
+    laukas2.style.backgroundColor = "yellow";
+})
+laukas2.addEventListener("blur", function (e){
+    laukas2.style.backgroundColor = "";
+})
