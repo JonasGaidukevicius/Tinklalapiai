@@ -3,8 +3,8 @@ var atsitiktinisSkaicius = Math.floor(Math.random() * 10);
 let forma = document.querySelector("#spejikas");
 forma.addEventListener("submit", function (e) {
     e.preventDefault();
-    console.log(e.target.elements.spejimas.value);
-    console.log(atsitiktinisSkaicius);
+    //console.log(e.target.elements.spejimas.value);
+    //console.log(atsitiktinisSkaicius);
     if (atsitiktinisSkaicius == e.target.elements.spejimas.value) {
         let newMessage = document.createElement("p");
         newMessage.textContent = "Jūs atspėjote!";
