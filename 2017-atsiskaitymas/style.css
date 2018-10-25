@@ -1,0 +1,35 @@
+img {
+    width: 100%;
+}
+
+.pilkas_fonas{
+    background-color: lightgray;
+}
+
+.vidine_paraste{
+    padding: 45px;
+}
+
+vidine-paraste_2{
+    padding: 50px;
+}
+
+div.pirmas h2{
+    color: red;
+}
+div.antras h5{
+    color: red;
+}
+
+hr {
+
+    height: 1px;
+    background-color:lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+div.justify-content-md-center p{
+    color: lightgray;
+}
