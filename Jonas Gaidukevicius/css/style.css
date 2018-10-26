@@ -1,0 +1,73 @@
+
+.topnav-right {
+  float: right;
+}
+
+.vardas{
+    color: black;
+}
+
+.linkas{
+    color: lightgray;
+}
+
+.paraste{
+    margin-left: 10px;
+}
+
+.jumbotron{
+    background-color: #C3C3E5;
+}
+.paverstas{
+    font-style: italic;
+}
+
+h1 {
+    font-weight: bold;
+    color: blueviolet;
+
+}
+
+.pirmas{
+    background-color: #8C489F;
+}
+
+.antras{
+    background-color: #C3C3E5;
+}
+
+.ketvirtas{ 
+    text-align: center;
+    background-color: #C3C3E5;
+    color: blueviolet;
+    padding-bottom: 10px;
+}
+
+.penktas{
+    width: 80%;
+}
+
+.progress{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn{
+    color: white;
+    background-color: blueviolet;
+    
+}
+
+.paploninta{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+.desine{
+    float: right;
+}
